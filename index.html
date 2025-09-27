@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Web Sitem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">Web Sitem</div>
+            <ul class="nav-links">
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="anasayfa" class="hero">
+            <div class="hero-content">
+                <h1>Merhaba, Ben [İsminiz]</h1>
+                <p>Web Geliştirici & Tasarımcı</p>
+                <button class="cta-button" onclick="alert('Hoş geldiniz!')">Daha Fazla Bilgi</button>
+            </div>
+        </section>
+
+        <section id="hakkimda" class="about">
+            <h2>Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Web geliştirme ve tasarım konusunda tutkulu biriyim. Modern ve responsive web siteleri geliştiriyorum.</p>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Responsive Tasarım</li>
+                        <li>Modern Framework'ler</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projeler" class="projects">
+            <h2>Projelerim</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Proje 1</h3>
+                    <p>Kişisel portfolio sitesi</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proje 2</h3>
+                    <p>E-ticaret websitesi</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proje 3</h3>
+                    <p>Blog uygulaması</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="iletisim" class="contact">
+            <h2>İletişim</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Adınız" required>
+                <input type="email" placeholder="E-posta" required>
+                <textarea placeholder="Mesajınız..." rows="5" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Web Sitem. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
